@@ -20,8 +20,6 @@ import org.testng.annotations.Test;
 public class FizzBuzzTest
 {
 
-    private FizzBuzzManualInjection sut;
-
     @Mock
     private FizzBuzzNumberProvider numberProvider;
 
@@ -30,6 +28,8 @@ public class FizzBuzzTest
 
     @Mock
     private FizzBuzzPrinter printer;
+
+    private FizzBuzzManualInjection sut;
 
     @BeforeMethod
     public void setUp()
