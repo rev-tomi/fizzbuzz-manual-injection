@@ -5,8 +5,7 @@ public class FizzBuzzPrinter
 
     public void printFizzBuzz(final String msg)
     {
-        // TODO Auto-generated method stub
-
+        System.out.println(msg);
     }
 
 }
