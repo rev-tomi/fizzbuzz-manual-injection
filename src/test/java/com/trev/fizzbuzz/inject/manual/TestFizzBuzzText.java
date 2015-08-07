@@ -9,12 +9,12 @@ import org.testng.annotations.Test;
 public class TestFizzBuzzText
 {
 
-    private FizzBuzzTemplate sut;
+    private FizzBuzzTextProvider sut;
 
     @BeforeMethod
     void setUp()
     {
-        sut = new FizzBuzzTemplate();
+        sut = new FizzBuzzTextProvider();
     }
 
     @Test(dataProvider = "fizzBuzzText")
