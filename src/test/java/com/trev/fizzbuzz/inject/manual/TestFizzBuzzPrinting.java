@@ -13,13 +13,13 @@ public class TestFizzBuzzPrinting
 {
 
     private PrintStream sysOut;
-    private FizzBuzzTemplate sut;
+    private FizzBuzzPrinter sut;
 
     @BeforeMethod
     public void setUp()
     {
         sysOut = System.out;
-        sut = new FizzBuzzTemplate();
+        sut = new FizzBuzzPrinter();
     }
 
     @AfterMethod
